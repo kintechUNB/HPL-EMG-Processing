@@ -1,6 +1,8 @@
 # HPL-EMG-Processing
-EMG Processing software for the High Performance Lab
 
-This Matlab app is used to analyze the csv files acquired using the HumacTrigno data acquisition software also written in Matlab. It outputs the rms (root mean square) values and the mdf (median frequency) values for the two EMG channels. It also calculates the average torque for the same time window. All results are saved in a csv file called "results.csv"
+This repository includes Matlab apps for visualization and analysis of HDsEMG data taken using Sessantaquattro+. It is primarily used by students and researchers in the Human Performance Laboratory of UNB Faculty of Kinesiology.
 
-It is primarily used in Tim Green's project. 
+## EMGProcessing32x1.mlappinstall
+
+This software processes data from an 8 x 4 HDsEMG grid. It takes a csv file as input. The csv file is a pre-processed using the OTBiolab+ software and should contain 34 columns. The first column is the time signal. Columns 2-33 are the EMG signals from the individual grids. Column 34 is the AUX (auxiliary) output.The auxiliary output may be an isokinetic dynamometer signal or a trigger signal. 
+
