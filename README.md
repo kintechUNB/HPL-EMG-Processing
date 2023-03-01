@@ -27,4 +27,4 @@ The output file is called EMGAnalysisResults.csv which contain the following col
 5. Have fun analyzing! 
 
 ## For bugs or improvement suggestions
-Contact: <a href = "mailto: joel.tabarangao@unb.ca">Joel Tabarangao </a>
+Contact: <a href = "mailto: joel.tabarangao@unb.ca">Joel Tabarangao </a> 
