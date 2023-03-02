@@ -18,6 +18,8 @@ The output file is called EMGAnalysisResults.csv which contain the following col
 * MDFmean - the mean of the Median Frequencies in Hz
 * Entropy - a measure of signal homogeneity
 * CoV - coefficient of variation
+* Xcg, Ycg - Heatmap centroid values
+
 
 ## Installation instructions
 1. Download the mlappinstall file. 
