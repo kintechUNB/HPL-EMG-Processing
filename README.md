@@ -21,7 +21,7 @@ The output file is called EMGAnalysisResults.csv which contain the following col
 * Xcg, Ycg - Heatmap centroid values
 
 ## Sample Files
-There are two sample csv files for testing the app. Both sample files were taken using a sessantaquatro+ EMG system. The output file was processed to show 32 EMG channels and 1 auxiliary channel. Column 1 contains the timestamp, columns 2-33 are the EMG measurements, and column 34 contains the auxiliary output values. 
+There are two sample csv files for testing the app. Both sample files were taken using a sessantaquatro+ EMG system. An output file was processed to show 32 EMG channels and 1 auxiliary channel. Column 1 contains the timestamp, columns 2-33 are the EMG measurements, and column 34 contains the auxiliary output values. 
 
 * <b>SampleFile_Isokinetic.csv</b> - auxiliary output from CSMI isokinetic dynamometer with ramped torque values.
 * <b>SampleFile_trigger.csv</b> - auxiliary output from a 5V DC source to identify start and stop points of a functional task. 
